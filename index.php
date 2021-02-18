@@ -34,7 +34,7 @@ error_reporting(E_ALL);
                 }
             }
         ?>
-        <input type="submit" value="Total">
+        <br><br><input type="submit" value="Total">
             
         </form>
         
@@ -42,11 +42,21 @@ error_reporting(E_ALL);
     
     <fieldset name="selectedItems">
     <legend>Selected Items</legend>
-        <h2>You Chose:
+        <h2>You Chose: <br><br>
         <?php 
-            
+            foreach($items as $item){
+                //if(isset($_POST[$item->qty])){
+                    if($item->qty > 0){
+                        echo ''.$item->qty.'x&nbsp;&nbsp;'.$item->name.'<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$'.($item->price * $item->qty).'<br>'
+                            
+                        
+                        ;
+                    //}
+                }
+            }
         ?>
-        <h2>Your Total: 
+        <h2><br>Your Total: 
             <?php 
                 $total = 0;
 
@@ -56,7 +66,7 @@ error_reporting(E_ALL);
                 }
             ?>
         <h2>
-        <?php echo '<p>$' . $total . '</p>'; ?>
-    </fieldset>
+        <?php echo '<p>$' .round(($total + 1.065), 2) . '</p>'; ?>
+    
     
 </html>
