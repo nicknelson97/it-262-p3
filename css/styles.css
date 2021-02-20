@@ -1,0 +1,109 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    color:black;
+    background:#ADD8E6;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 17px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+div {
+    border:20px solid #2EB9CE;
+    border-width:20px;
+    border-style:solid;
+    border-color:#2eb9ce;
+}
+option {
+}
+header {
+    margin-bottom:20px;
+    overflow: hidden;
+    padding-bottom:20px;
+}
+.inner-header {
+    width:940px;
+    margin:20px auto;
+}
+#logo {
+    width:150px;
+    float:left;
+}
+nav ul {
+    float:right;
+    margin-top:20px;
+}
+#wrapper {
+    clear:both;
+    width: 940px;
+    margin:0 auto;
+    text-align: center;
+}
+main {
+    width:580px;
+    float:left;
+}
+footer {
+    height: 50px;
+    line-height: 50px;
+    border-top:1px dotted tan;
+    clear:both;
+}
+footer li {
+    float:left;
+    margin-right:30px;
+        list-style-type:none;
+}
+img {
+    max-width:100%;
+}
+blockquote {
+    font-size:1.4em;
+    margin:20px 100px 20px 100px;
+}
+.home h1 {
+    font-size:3em;
+    font-weight:200;
+    margin-bottom: 12px;
+}
+h3 {
+    font-size:1em;
+    font-weight:200;
+    margin-bottom: 9px;
+}
+legend {
+    font-size:1.5em;
+    font-weight:200;
+    margin-bottom: 9px;
+    
+}
+p {
+    margin-bottom: 5px;
+}
+fieldset {
+    color:black;
+    padding:10px 15px 10px 10px;
+    background:#ADD8E6;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+label {
+    display:block;
+    margin-bottom:5px;
+        }
+select {
+    margin-bottom: 10px;
+    background: #2EB9CE;
+}
+input{
+    background: #2EB9CE;
+}
