@@ -76,10 +76,10 @@ error_reporting(E_ALL);
            <?php echo '<p>$'.round(($total), 2).'</p>'; ?>
         </h2>
         <h2><br>Tax:<br>
-            <?php echo '<p>$'.round(($total * .065), 2).'</p>'; ?>
+            <?php echo '<p>$'.round(($total * .101), 2).'</p>'; ?>
         </h2>
         <h2><br>Your Total: 
-            <?php echo '<p>$'.round(($total * 1.065), 2).'</p>'; ?>
+            <?php echo '<p>$'.round(($total * 1.101), 2).'</p>'; ?>
         </h2>
             </fieldset>
     </div>
